@@ -3,11 +3,15 @@
 	<head>
 		<meta charset='utf-8'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>HOME-RETE DEGLI UNIVERSITARI</title>
+		<title>RDU|RETE DEGLI UNIVERSITARI</title>
 		
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
 
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-widht; initial-scale=1">
@@ -15,26 +19,58 @@
 
 	<body>
 		<header class="header clearfix">
-			<a href="" class="header__logo">LOGO</a>
+
+			<a href="index.html" class="header__logo"><img src="images/logo.png"></a>
 			<a href="" class="header__icon-bar">
 				<span></span>
 				<span></span>
 				<span></span>
 			</a>
-
+			
 			<ul class="header__menu animate">
-				<li class="header__menu__items"><a href="SITO PROVA/home.html">HOME</a></li>
-				<li class="header__menu__items"><a href="SITO PROVA/chi siamo.html">CHI SIAMO</a></li>
-				<li class="header__menu__items"><a href="SITO PROVA/campagne.html">CAMPAGNE</a></li>
-				<li class="header__menu__items"><a href="SITO PROVA/eventi.html">EVENTI</a></li>
+				<li class="header__menu__items"><a href="index.html">HOME</a></li>
+				<li class="header__menu__items"><a href="chi siamo.html">CHI SIAMO</a></li>
+				<li class="header__menu__items"><a href="campagne.html">CAMPAGNE</a></li>
+				<li class="header__menu__items"><a href="eventi.html">EVENTI</a></li>
+				<li class="header__menu__items"><a href="contatti.html">CONTATTI</a></li>
+				<li class="header__menu__items"><a href="doc.html">ABOUT</a></li>
 			</ul>
 		</header>
 
+		<section class="intro" clearfix>
+			<img src="images/copertina.png">
+		</section>
 
+		<section class="cards" clearfix>
+			<div class="card">
+				<a href="chi siamo.html"></a>
+				<img class="card__image" src="images/slogan.jpg">
+					<div class="card__copy">
+					<h1>CHI SIAMO</h1>
+					<p>Siamo un'associazione studentesca dell'Ateneo di Bologna</p>
+					</div>
+			</div>
 
+			<div class="card">
+				<img class="card__image" src="images/stella.jpg">
+					<div class="card__copy">
+					<h1>CAMPAGNE</h1>
+					<p>Scopri le nostre idee per migliorare il sistema universitario</p>
+					</div>
+			</div>
 
+			<div class="card">
+				<img class="card__image" src="images/eventi.jpg">
+					<div class="card__copy">
+					<h1>EVENTI</h1>
+					<p>Partecipa agli incontri e seminari proposti dalla rete</p>
+					</div>
+			</div>
+		</section>
 
-
+ 	<footer class="footer">
+			<p>Copyright © 2022 RDU all rights reserved.</p>
+		</footer>
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -50,6 +86,6 @@
 			});
 		</script>
 
-		</body>
+	</body>
 
 	</html>

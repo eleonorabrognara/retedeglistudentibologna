@@ -1,0 +1,110 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>EVENTI|RETE DEGLI UNIVERSITARI</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-widht; initial-scale=1">
+	</head>
+
+	<body>
+		<header class="header clearfix">
+			<a href="index.html" class="header__logo"><img src="images/logo.png"></a>
+			<a href="" class="header__icon-bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+
+			<ul class="header__menu animate">
+				<li class="header__menu__items"><a href="SITO PROVA/home.html">HOME</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/chi siamo.html">CHI SIAMO</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/campagne.html">CAMPAGNE</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/eventi.html">EVENTI</a></li>
+				<li class="header__menu__items"><a href="contatti.html">CONTATTI</a></li>
+				<li class="header__menu__items"><a href="doc.html">ABOUT</a></li>
+			</ul>
+		</header>
+
+		<article class="eventi">
+			<div class="eventi__copy">
+				<h2 class="eventi__copy__title">PARTECIPA AI NOSTRI EVENTI</h2>
+				<p class="eventi__copy__testo">La Rete organizza diversi incontri e seminari per favorire lo scambio di opioni e momenti di condivisione all'interno dell'Univestà, ma anche aperitivi perfetti per instaurare nuove relazioni</p>
+		</article>
+
+		<section class="events" clearfix>
+			<div class="event">
+				<img class="card__image" src="images/ottavo.png">
+			</div>
+
+			<div class="event">
+				<img class="card__image" src="images/settimo.jpg">
+			</div>
+
+			<div class="event">
+				<img class="card__image" src="images/sesto.jpg">
+			</div>
+		</section>
+
+		<section class="events" clearfix>
+			<div class="event">
+				<img class="card__image" src="images/slogan.jpg">
+			</div>
+
+			<div class="event">
+				<img class="card__image" src="images/stella.jpg">
+			</div>
+
+			<div class="event">
+				<img class="card__image" src="images/terzo.JPG">
+			</div>
+		</section>
+
+		<section class="events" clearfix>
+			<div class="event">
+				<img class="card__image" src="images/secondo.JPG">
+			</div>
+
+			<div class="event">
+				<img class="card__image" src="images/primo.JPG">
+			</div>
+
+		</section>
+
+
+
+
+		<footer class="footer">
+			<p>Copyright © 2022 RDU all rights reserved.</p>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+		 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+				});
+			});
+		</script>
+
+		</body>
+
+	</html>

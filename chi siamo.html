@@ -1,0 +1,76 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset='utf-8'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>CHI SIAMO|RETE DEGLI UNIVERSITARI</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width=device-widht; initial-scale=1">
+	</head>
+
+	<body>
+		<header class="header clearfix">
+			<a href="index.html" class="header__logo"><img src="images/logo.png"></a>
+			<a href="" class="header__icon-bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+
+			<ul class="header__menu animate">
+				<li class="header__menu__items"><a href="SITO PROVA/home.html">HOME</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/chi siamo.html">CHI SIAMO</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/campagne.html">CAMPAGNE</a></li>
+				<li class="header__menu__items"><a href="SITO PROVA/eventi.html">EVENTI</a></li>
+				<li class="header__menu__items"><a href="contatti.html">CONTATTI</a></li>
+				<li class="header__menu__items"><a href="doc.html">ABOUT</a></li>
+			</ul>
+		</header>
+
+		<section class="intro" clearfix>
+			<img src="images/copertina.png">
+		</section>
+
+		<article class="presentazione">
+			<div class="presentazione__copy">
+				<h1 class="presentazione__copy__title">CHI SIAMO</h1>
+				<p class="presentazione__copy__testo"> RETE DEGLI UNIVERSITARI
+				</p>
+				<p>Rete degli Universitari è un'associazione studentesca dell'ateneo di Bologna. Si compone di tot associati che condividono un interesse comune: contribuire a rendere l'università un posto migliore. </p>
+				<p>La lista si fa portavoce dei bisogni e dei diritti degli studenti e collabora con l'ateneo proponendo idee e progetti volti a migliorare la realtà universitaria. In questo senso RDU si batte per vedere riconosciuto e realizzato il diritto allo studio per tuttə.</p>
+				<p>La rete vuole essere un ambiente in cui chiunque può sentirsi a casa. Tra i valori che persegue ci sono l'antifascismo, la sostenibilità e l'appoggio alla comunità LGBTQ+.</p>
+				<p>La Rete è anche momenti di incontro e svago, infatti durante l'anno accademico organizza eventi e seminari, aperitivi e momenti di incontro per rendere più vivace e interessante la realtà universitaria.</p>
+				<p>Rete degli Universitari fa parte dell'Unione degli Universitari, una confederazione di associazioni studentesche presenti nei più importanti atenei italiani.</p>
+			</div>
+		</article>
+
+
+		<footer class="footer">
+			<p>Copyright © 2022 RDU all rights reserved.</p>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script>
+		 $(document).ready(function(){
+
+			$(".header__icon-bar").click(function(e){
+
+				$(".header__menu").toggleClass('is-open');
+				e.preventDefault();
+
+				});
+			});
+		</script>
+
+		</body>
+
+	</html>

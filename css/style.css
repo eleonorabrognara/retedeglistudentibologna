@@ -58,6 +58,8 @@ padding: 15px; text-decoration: none;}
 
 
 /* Chi siamo */
+.cover img{width: 100%; 
+	height: auto;}
 .presentazione{font-family: 'Roboto Slab', serif;}
 .presentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px; 
 	background: #FFFFF0; padding:20px 40px;position: relative; z-index: 1}
@@ -75,16 +77,12 @@ padding: 15px; text-decoration: none;}
 	background-color: #8B0000; color: #FFFAFA;}
 .proposte h2{font-size: 50px; padding: 10px 0px; margin: 0px;}
 
+.presentazione{font-family: 'Roboto Slab', serif;}
+.presentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -60px; 
+	background: #FFFFF0; padding:20px 40px;position: relative; z-index: 1}
 
 
 /* Eventi*/
-.eventi{font-family: 'Roboto Slab', serif;}
-.eventi__copy{max-width: 100%; margin: 0px auto; 
-	background: #8B0000; color: #FFFFF0; padding:20px 200px;}
-
-.eventi__copy__title h2{font-size: 32px; text-align: center;}
-.eventi__copy__testo p{font-weight: bold; font-size: 16px;}
-
 .events{max-width: 1200px; height: 350px; margin: 40px auto;}
 .event{width: 30%; margin: 0 1.5%; background: #DCDCDC; color:#8B0000;
 	float: left; text-align: center; cursor: pointer;}
@@ -106,6 +104,7 @@ h5{text-align: center;
 
 .wrapper{
 	display: inline-flex;
+	text-align: center;
 	}
 
 .wrapper .icon{
@@ -144,8 +143,6 @@ h5{text-align: center;
 	box-shadow: 0 10px 10px rgba(0,0,0,0.1);
 }
 
-
-
 /* ! Tablet */
 @media (max-width: 988px){
 
@@ -157,13 +154,6 @@ h5{text-align: center;
 .banner__copy{width: 50%; height: 100%}
 
 .card__image{width: 100%; height: auto;}
-
-.eventi{font-family: 'Roboto Slab', serif;}
-.eventi__copy{max-width: 100%; margin: 0px auto; height: 160px;
-	background: #8B0000; color: #FFFFF0; padding:20px 100px;}
-
-.eventi__copy__title h2{font-size: 15px; text-align: center;}
-.eventi__copy__testo p{font-weight: bold; font-size: 10px;}
 
 .events{max-width: 1200px; height: 300px; margin: 40px auto;}
 }
@@ -201,12 +191,7 @@ h5{text-align: center;
 .footer{height: 5%; width: 100%;}
 
 .presentazione{width: 90%; margin: 5%; position: center;}
-
-.presentazione{width: 90%; margin: 5%; position: center;}
-
-.eventi{font-family: 'Roboto Slab', serif;}
-.eventi__copy{max-width: 100%; margin: 0px auto; height: 250px;
-	background: #8B0000; color: #FFFFF0; padding:10px 20px;}
+.presentazione__copy{max-width: 800px; margin: 0px auto; margin-top: -30px;}
 
 .events{max-width: 1200px; height: 100px; margin-top: 5px;}
 .eventi__copy__title h2{font-size: 10px; text-align: center;}
